@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 25px; */
+}
+
+.container{
+    width: 400px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: gray;
+    margin-top: 25px;
+}
+
+.container img{
+    width: 100px;
+}
+
+.title{
+    font-size: 20px;
+}
